@@ -7,7 +7,7 @@
 
   ​		本项目共分为http server和tcp server。httpserver主要是接受前端页面的请求，将请求通过tcp socket发送给tcp服务器，由tcp服务器实现功能逻辑。
 
-  ​	![image](https://git.garena.com/moods.jin/entrytask/raw/master/images/%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+  ​	![image](https://github.com/moodsjinxin/moods-goWeb/blob/master/images/%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 - git项目结构
 
@@ -49,7 +49,7 @@
 
 - 项目架构
 
-  ![架构图](https://git.garena.com/moods.jin/entrytask/raw/master/images/架构图.png)
+  ![架构图](https://github.com/moodsjinxin/moods-goWeb/blob/master/images/架构图.png)
 
 - 相关文档
 
@@ -68,11 +68,11 @@
 
     - 项目中引入了2个三方库：redigo（redis）和 go-sql-driver（mysql）根据import内容可以自动进行下载
     
-    ![image](https://git.garena.com/moods.jin/entrytask/raw/master/images/import配置.png)
+    ![image](https://github.com/moodsjinxin/moods-goWeb/blob/master/images/import配置.png)
     
   - 修改mytcpsever中redis和mysql的配置信息（按照自己的redis 和 mysql信息进行配置）
 
-    ![image](https://git.garena.com/moods.jin/entrytask/raw/master/images/%E4%BF%AE%E6%94%B9mysql%E9%85%8D%E7%BD%AE.png)
+    ![image](https://github.com/moodsjinxin/moods-goWeb/blob/master/images/%E4%BF%AE%E6%94%B9mysql%E9%85%8D%E7%BD%AE.png)
 
   - 修改文件上传存储位置
     
