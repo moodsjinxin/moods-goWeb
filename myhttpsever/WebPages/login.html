@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+</head>
+<body>
+<div style="margin-left: 700px">登录界面</div>
+<div style="width:500px;float: right;margin-right:30%;margin-top: 20%" >
+    <form action = "/login" method="POST">
+        <label for="userid" style="font-size:18px" >用户名：</label>
+        <div style="height:35px;width:400px;position:relative;display:inline" >
+            <input name="userid" type="text" style="height:30px;width:350px;padding-right:50px;">
+        </div>
+        <br/>
+        <br/>
+        <label for="password" style="font-size:18px" >&nbsp密码：</label>
+        <div style="height:35px;width:400px;position:relative;display:inline" >
+            <input name="password" type="text" style="height:30px;width:350px;padding-right:50px;">
+        </div>
+        <br/>
+        <br/>
+        <div style="width:426px;float: right;">
+            <button type="submit"  style="height:30px;width:400px;background-color:red;">登录</button>
+        </div>
+        <div style="width:426px;float: right;">
+            <p class="message">还没有账户? <a href="register">立刻创建</a></p>
+        </div>
+    </form>
+</div>
+</body>
+</html>

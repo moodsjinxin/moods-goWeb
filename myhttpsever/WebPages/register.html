@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+</head>
+<body>
+<div style="margin-left: 700px">注册界面</div>
+<div style="width:500px;float: right;margin-right:30%;margin-top: 20%" >
+    <form action = "/register" method="POST">
+    <label for="userid" style="font-size:18px" >用户名：</label>
+    <div style="height:35px;width:400px;position:relative;display:inline" >
+        <input name="userid" type="text" style="height:30px;width:350px;padding-right:50px;">
+        <span style="position:absolute;right:18px;top:2px;height:16px;width:16px;display:inline-block;"></span>
+    </div>
+    <br/>
+    <br/>
+    <label for="password" style="font-size:18px" >&nbsp密码：</label>
+    <div style="height:35px;width:400px;position:relative;display:inline" >
+        <input name="password" type="text" style="height:30px;width:350px;padding-right:50px;">
+        <span style="position:absolute;right:16px;top:2px;height:16px;width:16px;display:inline-block;"></span>
+    </div>
+        <div></div>
+   <label for="nickname" style="font-size:18px;margin-top: 80px" >昵称：</label>
+   <div style="height:35px;width:400px;position:relative;display:inline" >
+        <input name="nickname" type="text" style="height:30px;width:350px;padding-right:50px;">
+        <span style="position:absolute;right:18px;top:2px;height:16px;width:16px;display:inline-block;"></span>
+   </div>
+    <br/>
+    <br/>
+    <div style="width:426px;float: right;">
+        <input type="submit" value="确认" style="height:30px;width:400px;background-color:red;"/>
+    </div>
+    </form>
+    <div style="width:426px;float: right;">
+        <a href="login">返回</a>
+    </div>
+</div>
+<div>
+    <text>本次执行结果：</text>
+    <text>{{.Mess}}</text>
+</div>
+</body>
+</html>
